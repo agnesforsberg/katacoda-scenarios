@@ -6,29 +6,30 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Intro to React Application",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Intro to React testing",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Importance of testing and automation",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Importance of continous integration",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Introduction to Travis CI",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Integrating travis to Github repo",
         "text": "step6.md"
       }
+
     ],
     "intro": {
       "text": "intro.md"
