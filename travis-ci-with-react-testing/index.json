@@ -2,34 +2,41 @@
   "title": "Later",
   "description": "Laster",
   "difficulty": "Intermediate",
-  "time": "30 minutes",
+  "time": "15-30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Intro to React Application",
+        "title": "Step 1: Introduction to Continuous Integration ",
         "text": "step1.md"
       },
       {
-        "title": "Intro to React testing",
+        "title": "Step 2: Getting to know the React application",
         "text": "step2.md"
       },
       {
-        "title": "Importance of testing and automation",
+        "title": "Step 3: Testing in React",
         "text": "step3.md"
       },
       {
-        "title": "Importance of continous integration",
+        "title": "Step 4: What is Travis CI and pros of using it?",
         "text": "step4.md"
       },
       {
-        "title": "Introduction to Travis CI",
+        "title": "Step 5: Travis CI and github",
         "text": "step5.md"
       },
       {
-        "title": "Integrating travis to Github repo",
+        "title": "Step 6: Travis CI server in action",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7: Travis CI server using react tests",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8: Take away",
+        "text": "step8.md"
       }
-
     ],
     "intro": {
       "text": "intro.md"
