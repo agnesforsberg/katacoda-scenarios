@@ -17,7 +17,7 @@
 
 5. Travis CI and github
 
-7. Travis CI server in action
+6. Travis CI server in action
 
 7. Travis CI server using react tests 
 
