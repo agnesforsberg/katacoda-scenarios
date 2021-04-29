@@ -10,40 +10,39 @@ The first step is to ensure that you have decided what default branch the produc
 
 💡 Tip: It should look something like this image.  
 
-![Sign in](./assets/settingsimages.png)
+<iframe src="https://drive.google.com/file/d/1BS7WPKchnht9xdq-pkLYfU7o3pOYgWIw/preview" width="640" height="480"></iframe>
 
+\
 Now it is time to finally integrate travis to the github repo
 
 ###  Authorize travis to Github
 
 
-
-Steps:
+#### Steps: ####
 
 1. Go to [https://travis-ci.com/](https://travis-ci.com/) and sign in or sign up using your github account.
 
 
+<iframe src="https://drive.google.com/file/d/1CdlzKcS_-fU41h45Y5Pza4NerkVFyXLd/preview" width="640" height="480"></iframe>
 
-![Sign in](./assets/1.PNG)
-
+\
 ⚠ **NOTE** First time users will be prompted to authorize travis, this will not give travis access to the repo, you must carry on with the Steps.
 
-![Auth](./assets/2.PNG)
+<iframe src="https://drive.google.com/file/d/1sv2kSAbJ5O6DZ2csTiytgGynJj4vOE9g/preview" width="640" height="480"></iframe>
 
 2. Once in travis, click on your profile picture on the top right corner and click on settings. Once in Settings click on the green button that says *Activate* under **Github Apps integration** .
 
 
 
-<img src="./assets/3.PNG" alt="drawing" width= "70%" height= "auto" />
+<iframe src="https://drive.google.com/file/d/1QiO5dGIlLmQVPIiZA-Eptyl0Ztm7pCNS/preview" width="640" height="480"></iframe>
 
 
 
-
+\
 Here you will be promted to either add all your github repos or a selected few. For the purposes of this tutorial you only need to give access for the forked repo you are working on. Then you approve and install it.
 
 
-
-<iframe src="https://drive.google.com/file/d/1KsqeFLl2deyO017Crgp-Dg4ZsYQmOels/preview" width="600" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1k_hAsKi2HNKpOkQZez0iszXDO-MKoOIB/preview" width="640" height="480"></iframe>
 
 
 
