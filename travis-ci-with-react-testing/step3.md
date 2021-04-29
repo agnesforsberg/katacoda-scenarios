@@ -1,15 +1,20 @@
 It's time to write som tests to make sure our application is doing what it should! This is not a very complicated app, and you can probably tell it is working fairly well, but with a larger project tests are a great way of minimizing bugs!
 
 ## Getting started
-We will be using Jest for our testing. Jest is a testing framework for Javascript that is common for testing in React. We need to install it to use it.
-First run `^C`{{execute ctrl-seq}} to stop our app from running, and then run ```npm install --save-dev jest```{{execute}} to install Jest. 
+There is already a test file provided when creating React apps with npx (which this one was). We will be using `testing-library@react` for our tests. Open `travis-react-tutorial/counter/src/App.test.js`{{open}} to see it!
 
-Then, in our `package.json`{{open}} file, find: 
-```
-{"scripts": {
-        ...,
-        "test" : "react-scripts test",
-        ...
-}}
-```
-and change "react-scripts test" to "jest", so that it says `"test": "jest"`.
+## Writing tests
+As you can see, the file is empty. Let's start by importing what we need:
+<pre class="file" data-filename="travis-react-tutorial/counter/src/App.test.js" data-target="replace">
+import { fireEvent, render, screen } from '@testing-library/react'
+import App from './App'
+
+#TODO-insertTest1
+
+#TODO-insertTest2
+
+#TODO-insertTest3
+</pre>
+
+The first import get's the necessary functions from the testing library - we'll go over these soon. And the of course we import our App, how else would we test it?
+
