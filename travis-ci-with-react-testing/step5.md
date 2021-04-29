@@ -43,9 +43,7 @@ Here you will be promted to either add all your github repos or a selected few. 
 
 
 
-<img src="./assets/4.PNG" alt="drawing" width= "70%" height= "auto" />
-
-
+<iframe src="https://drive.google.com/file/d/1KsqeFLl2deyO017Crgp-Dg4ZsYQmOels/preview" width="600" height="480"></iframe>
 
 
 
