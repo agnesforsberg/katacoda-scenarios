@@ -16,5 +16,26 @@ import App from './App'
 #TODO-insertTest3
 </pre>
 
-The first import get's the necessary functions from the testing library - we'll go over these soon. And the of course we import our App, how else would we test it?
+The first import get's the necessary functions from the testing library - we'll go over these soon. And the of course we then import our App, how else would we test it?
 
+**Test 1**
+Let's start with something basic, let's make sure our buttons are rendered on the page!
+<pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest1">
+test('test 2 buttons render', () => {
+  render(<App />)
+  const buttons = screen.getAllByRole('button')
+  expect(buttons).toHaveLength(2)
+})
+</pre>
+
+What is going on here?
+- test() defines a test
+- the first parameter, `'test 2 buttons render'` is a description
+- the second parameter is the function that defines the test
+- `render(<App/>)` renders the App in the testing environment
+- `screen.getAllByRole('button')` returns an array of all buttons on the page
+- `expect(buttons).toHaveLength(2)` checks if there are exactly 2 buttons
+
+`expect()` is how we assert tests in React.
+
+Run `npm run test`{{execute}} to check if the test succeeds!
