@@ -43,7 +43,8 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": ["travis-ci-with-react-testing/assets/1.PNG"]
   },
   "environment": {
     "uilayout": "editor-terminal",
