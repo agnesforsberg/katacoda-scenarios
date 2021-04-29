@@ -20,7 +20,7 @@ Now it is time to finally integrate travis to the github repo
 
 #### Steps: ####
 
-1. Go to [https://travis-ci.com/](https://travis-ci.com/) and sign in or sign up using your github account.
+1.Go to [https://travis-ci.com/](https://travis-ci.com/) and sign in or sign up using your github account.
 
 <iframe src="https://drive.google.com/file/d/1CdlzKcS_-fU41h45Y5Pza4NerkVFyXLd/preview" width="640" height="480"></iframe>
 
@@ -29,7 +29,7 @@ Now it is time to finally integrate travis to the github repo
 
 <iframe src="https://drive.google.com/file/d/1sv2kSAbJ5O6DZ2csTiytgGynJj4vOE9g/preview" width="640" height="480"></iframe>
 
-2. Once in travis, click on your profile picture on the top right corner and click on settings. Once in Settings click on the green button that says *Activate* under **Github Apps integration** .
+2.Once in travis, click on your profile picture on the top right corner and click on settings. Once in Settings click on the green button that says *Activate* under **Github Apps integration** .
 
 <iframe src="https://drive.google.com/file/d/1QiO5dGIlLmQVPIiZA-Eptyl0Ztm7pCNS/preview" width="640" height="480"></iframe>
 
@@ -37,4 +37,4 @@ Here you will be promted to either add all your github repos or a selected few. 
 
 <iframe src="https://drive.google.com/file/d/1k_hAsKi2HNKpOkQZez0iszXDO-MKoOIB/preview" width="640" height="480"></iframe>
 
-3. Now you should be connected and any changes to the *time2Fork* branch will be tested and can either pass or fail. This can be seen both on github and on the Travis-CI dashboard. But more on that in the next step.
+3.Now you should be connected and any changes to the *time2Fork* branch will be tested and can either pass or fail. This can be seen both on github and on the Travis-CI dashboard. But more on that in the next step.
