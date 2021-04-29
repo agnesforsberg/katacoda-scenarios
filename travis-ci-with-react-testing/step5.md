@@ -21,22 +21,22 @@ Steps:
 
 1. Go to [https://travis-ci.com/](https://travis-ci.com/) and sign in or sign up using your github account.
 
-![Sign in](./images/1.PNG)
+![Sign in](travis-ci-with-react-testing\assets\1.PNG)
 
 ⚠ **NOTE** First time users will be prompted to authorize travis, this will not give travis access to the repo, you must carry on with the Steps.
 
-![Auth](./images/2.PNG)
+![Auth](travis-ci-with-react-testing\assets\2.PNG)
 
 2. Once in travis, click on your profile picture on the top right corner and click on settings. Once in Settings click on the green button that says *Activate* under **Github Apps integration** .
 
 
-![Green button](./images/3.PNG)
+![Green button](travis-ci-with-react-testing\assets\3.PNG)
 
 
 Here you will be promted to either add all your github repos or a selected few. For the purposes of this tutorial you only need to give access for the forked repo you are working on.
 
 
-![Selected Repos](./images/4.PNG)
+![Selected Repos](travis-ci-with-react-testing\assets\4.PNG)
 
 
 
