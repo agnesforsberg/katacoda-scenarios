@@ -10,8 +10,7 @@ The first step is to ensure that you have decided what default branch the produc
 
 💡 Tip: It should look something like this image.  
 
-image for settings
-![Sign in](./images/settingsimages.png)
+![Sign in](./images/settingsimages.PNG)
 
 Now it is time to finally integrate travis to the github repo
 
@@ -22,22 +21,22 @@ Steps:
 
 1. Go to [https://travis-ci.com/](https://travis-ci.com/) and sign in or sign up using your github account.
 
-![Sign in](./images/1.png)
+![Sign in](./images/1.PNG)
 
 ⚠ **NOTE** First time users will be prompted to authorize travis, this will not give travis access to the repo, you must carry on with the Steps.
 
-![Auth](./images/2.png)
+![Auth](./images/2.PNG)
 
 2. Once in travis, click on your profile picture on the top right corner and click on settings. Once in Settings click on the green button that says *Activate* under **Github Apps integration** .
 
 
-![Green button](./images/3.png)
+![Green button](./images/3.PNG)
 
 
 Here you will be promted to either add all your github repos or a selected few. For the purposes of this tutorial you only need to give access for the forked repo you are working on.
 
 
-![Selected Repos](./images/4.png)
+![Selected Repos](./images/4.PNG)
 
 
 
