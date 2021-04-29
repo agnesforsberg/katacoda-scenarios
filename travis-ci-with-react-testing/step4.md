@@ -18,18 +18,42 @@ For a travis integration to work, your github repo has to have a `.travis.yml`{{
 
 A simple travis configuration file is divided into 3 parts: Language, version and scripts. 
 
-The language tells the CI server what language the code utilizes in its builds
+The language tells the CI server what language the code utilizes in its builds. in this case the language used for React environments is Node_js:
 
-testing {.}
-
-<pre class="file" data-filename=".travis.yml" data-target="prepend">click me("Starting...")
+<pre class="file" data-filename=".travis.yml" data-target="append">language: node_js
 </pre>
 
+
+The version can be specified however as that is not the focus of this tutorial we will use a stable version of Node_js
+
+
+
+  <pre class="file" data-filename=".travis.yml" data-target="append">node_js: 
+  - "stable"
+</pre>
+
+Finally the Script part, which might be the most diverse part of the configuration file tells Travis what commands should be tested when committing changes to the project.
+
+  <pre class="file" data-filename=".travis.yml" data-target="append">script:
+  - npm run build
+  - npm run test
+</pre>
+
+the final version of the travis configuration file should look like this: <
+
+```
 language: node_js
 node_js:
   - "stable"
 script:
-  - yarn build
+  - npm run build
+  - npm run test
+
+```
+⚠ **NOTE**: This should be based on what build commands that are specified in the `package.json` file
+
+
+
 
 
 
