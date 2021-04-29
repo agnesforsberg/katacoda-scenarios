@@ -10,15 +10,12 @@ The first step is to ensure that you have decided what default branch the produc
 
 💡 Tip: It should look something like this image.  
 
-![Sign in](./assets/settingsimages.PNG)
+![Sign in](./assets/settingsimages.png)
 
 Now it is time to finally integrate travis to the github repo
 
 ###  Authorize travis to Github
 
-<pre >
-![Sign in](./assets/1.PNG)
-</pre>
 
 
 Steps:
