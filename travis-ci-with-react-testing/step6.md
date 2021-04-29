@@ -10,7 +10,7 @@ In the forked repo, enter the file `src/App.js` and replace the word COUNTER fro
 
 #### Testing phase ####
 
-Travis is automatic as mentioned however it still has to test the whole application after each push and therefore it takes some time for the build to either pass or fail. However you can follow the progress of this process in the dashboard of travis CI under the column JOB LOG. During this Phase you should be able to see a yellow symbol in both Github and the Travis CI dashboard as seen in the images below.
+Travis is automatic as mentioned however it still has to test the whole application after each push and therefore it takes some time for the build to either pass or fail. However you can follow the progress of this process in the dashboard of travis CI under the column JOB LOG. During this Phase you should be able to see a yellow color 🟡 in both Github and the Travis CI dashboard as seen in the images below.
 
 *Travis CI dashboard:*
 <iframe src="https://drive.google.com/file/d/1sPSk9ilbasOP23jwAPSLaCC_onEwWlgC/preview" width="600" height="280"></iframe>
@@ -23,7 +23,7 @@ Travis is automatic as mentioned however it still has to test the whole applicat
 
 #### Sucessful build ####
 
-Because you did not change anything too vital in the code, it should not have been broken and therefore the build is successful. If a build is successful  you should be able to see a green symbol in both Github and the Travis CI dashboard as seen in the images below.
+Because you did not change anything too vital in the code, it should not have been broken and therefore the build is successful. If a build is successful  you should be able to see a green color ✅ in both Github and the Travis CI dashboard as seen in the images below.
 
 
 *Travis CI dashboard:*
@@ -40,7 +40,7 @@ This shows that our change in our code has not broken the application and that i
 
 So we now it works if you dont break the code.. However what happens in the counter case. Lets break the code 👿
 
-Enter the file `src/App.js` and replace the word *function* from line 4 to whatever word you want and then push your changes to Github. This will definately break the code and you can see in the Travis CI dashboard under the column JOB LOG what went wrong. When a build fails you should also be able to see a red symbol in both Github and the Travis CI dashboard as seen in the images below. 
+Enter the file `src/App.js` and replace the word *function* from line 4 to whatever word you want and then push your changes to Github. This will definately break the code and you can see in the Travis CI dashboard under the column JOB LOG what went wrong. When a build fails you should also be able to see a red color ❌ in both Github and the Travis CI dashboard as seen in the images below. 
 
 
 *Travis CI dashboard:*
