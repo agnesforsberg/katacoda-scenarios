@@ -22,7 +22,7 @@ The first import get's the necessary functions from the testing library - we'll 
 Let's start with something basic, let's make sure our buttons are rendered on the page!
 <pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest1">
 test('test 2 buttons render', () => {
-  render(<App />)
+  render(&ltApp />)
   const buttons = screen.getAllByRole('button')
   expect(buttons).toHaveLength(2)
 })
@@ -43,7 +43,7 @@ Ok, so we have the buttons, but let's make sure that they work!
 
 <pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest2">
 test('test number plus 1', () => {
-    render(<App/>)
+    render(&ltApp/>)
     const plusButton = screen.getByRole('button', {name: '+'})
     const number = screen.getByText('1')
     fireEvent(plusButton, new MouseEvent('click', {
@@ -56,7 +56,7 @@ test('test number plus 1', () => {
 
 <pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest3">
 test('test number plus 1', () => {
-    render(<App/>)
+    render(&ltApp/>)
     const minusButton = screen.getByRole('button', {name: '-'})
     const number = screen.getByText('1')
     fireEvent(minusButton, new MouseEvent('click', {
@@ -79,3 +79,4 @@ Now we have some tests, let's see if they pass! Run `npm run test`{{execute}}
 The tests pass! Press `q`{{execute}} to quit.
 
 **NOTE** If your tests don't pass, make sure you haven't changed anything in App.js and that you've copied the tests exactly as written here!
+
