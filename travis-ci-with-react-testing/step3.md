@@ -1,11 +1,11 @@
 It's time to write som tests to make sure our application is doing what it should! This is not a very complicated app, and you can probably tell it is working fairly well, but with a larger project tests are a great way of minimizing bugs!
 
 ## Getting started
-There is already a test file provided when creating React apps with npx (which this one was). We will be using `testing-library@react` for our tests. Open `/travis-react-tutorial/counter/src/App.test.js`{{open}} to see it!
+There is already a test file provided when creating React apps with npx (which this one was). We will be using `testing-library@react` for our tests. Open `/travis-react-tutorial/src/App.test.js`{{open}} to see it!
 
 ## Writing tests
 As you can see, the file is empty. Let's start by importing what we need:
-<pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="replace">
+<pre class="file" data-filename="/root/travis-react-tutorial/src/App.test.js" data-target="replace">
 import { fireEvent, render, screen } from '@testing-library/react'
 import App from './App'
 
@@ -20,7 +20,7 @@ The first import get's the necessary functions from the testing library - we'll 
 
 **Test 1**
 Let's start with something basic, let's make sure our buttons are rendered on the page!
-<pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest1">
+<pre class="file" data-filename="/root/travis-react-tutorial/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest1">
 test('test 2 buttons render', () => {
   render(&ltApp />)
   const buttons = screen.getAllByRole('button')
@@ -41,7 +41,7 @@ What is going on here?
 **Test 2 and 3**
 Ok, so we have the buttons, but let's make sure that they work!
 
-<pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest2">
+<pre class="file" data-filename="/root/travis-react-tutorial/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest2">
 test('test number plus 1', () => {
     render(&ltApp/>)
     const plusButton = screen.getByRole('button', {name: '+'})
@@ -54,7 +54,7 @@ test('test number plus 1', () => {
 })
 </pre>
 
-<pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest3">
+<pre class="file" data-filename="/root/travis-react-tutorial/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest3">
 test('test number plus 1', () => {
     render(&ltApp/>)
     const minusButton = screen.getByRole('button', {name: '-'})
@@ -83,7 +83,7 @@ Woo, the tests pass! Press q in the terminal to quit, but don't do it yet!
 ## Break the tests
 This might not make any sense, but let's see if we can get a test to fail - just for fun!
 
-Open `/travis-react-tutorial/counter/src/App.js`{{open}} and change it so that the plus button adds 2 instead of 1 when clicked.
+Open `/travis-react-tutorial/src/App.js`{{open}} and change it so that the plus button adds 2 instead of 1 when clicked.
 
 Since we didn't quit the testing before they should run again automatically. What happens?
 

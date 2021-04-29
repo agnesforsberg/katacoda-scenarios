@@ -8,7 +8,7 @@ Clone the repo by running the following command:
 
 `git clone https://github.com/agnesforsberg/travis-react-tutorial.git`{{execute "T1"}}
 
-Navigate into the project folder `cd travis-react-tutorial/counter`{{execute}}
+Navigate into the project folder `cd travis-react-tutorial`{{execute}}
 
 and install the dependancies `npm install`{{execute}} This might take a little while, you can read ahead while you wait but don't go to the next step yet!
 
