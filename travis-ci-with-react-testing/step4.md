@@ -14,6 +14,23 @@ For a travis integration to work, your github repo has to have a `.travis.yml`{{
 
 💡 Tip: click on the file name above to create the file in the editor automatically!
 
+#### Travis structure
+
+A simple travis configuration file is divided into 3 parts: Language, version and scripts. 
+
+The language tells the CI server what language the code utilizes in its builds
+
+testing {.}
+
+<pre class="file" data-filename=".travis.yml" data-target="prepend">click me("Starting...")
+</pre>
+
+language: node_js
+node_js:
+  - "stable"
+script:
+  - yarn build
+
 
 
 If you want to add more commands that travis can check just append them to the bottom part (eg.)
