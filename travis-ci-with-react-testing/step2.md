@@ -27,3 +27,5 @@ There is also a css file to make the counter look pretty, but we don't have to w
 ### Run the application
 Hopefully npm has finished installing and it's time to run our application!
 Run `npm start`{{execute}} and once it says "Compiled successfully" you can click on "Display port 3000" to test out our application!
+
+**NOTE** When you're done playing with the counter, either start a new terminal to keep it running or run `^C`{{execute ctrl-seq}} to stop the React app.

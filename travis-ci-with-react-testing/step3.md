@@ -76,7 +76,7 @@ These tests are similar, but test the different buttons. We have a few new funct
 
 ## Test the tests
 Now we have some tests, let's see if they pass! Run `npm run test`{{execute}}
-The tests pass! Press `q`{{execute}} to quit.
+Woo, the tests pass! Press q in the terminal to quit, but don't do it yet!
 
 **NOTE** If your tests don't pass, make sure you haven't changed anything in App.js and that you've copied the tests exactly as written here!
 
@@ -85,8 +85,8 @@ This might not make any sense, but let's see if we can get a test to fail - just
 
 Open `/travis-react-tutorial/counter/src/App.js`{{open}} and change it so that the plus button adds 2 instead of 1 when clicked.
 
-Try `npm run test`{{execute}} again. What happens?
+Since we didn't quit the testing before they should run again automatically. What happens?
 
 You're told what went wrong - what it expected and what it got. When writing tests, and the tests fail, this is a great way to debug what's going wrong with your code.
 
-**Don't forget** to get your code back to working!
+**Don't forget** to get your code back to working! Then press `q` to get back to your terminal.
