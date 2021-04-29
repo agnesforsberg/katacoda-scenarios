@@ -55,7 +55,7 @@ test('test number plus 1', () => {
 </pre>
 
 <pre class="file" data-filename="/root/travis-react-tutorial/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest3">
-test('test number plus 1', () => {
+test('test number minus 1', () => {
     render(&ltApp/>)
     const minusButton = screen.getByRole('button', {name: '-'})
     const number = screen.getByText('1')
@@ -78,7 +78,7 @@ These tests are similar, but test the different buttons. We have a few new funct
 Now we have some tests, let's see if they pass! Run `npm run test`{{execute}}
 Woo, the tests pass! Press q in the terminal to quit, but don't do it yet!
 
-**NOTE** If your tests don't pass, make sure you haven't changed anything in App.js and that you've copied the tests exactly as written here!
+⚠ **NOTE** If your tests don't pass, make sure you haven't changed anything in App.js and that you've copied the tests exactly as written here!
 
 ## Break the tests
 This might not make any sense, but let's see if we can get a test to fail - just for fun!
@@ -89,4 +89,4 @@ Since we didn't quit the testing before they should run again automatically. Wha
 
 You're told what went wrong - what it expected and what it got. When writing tests, and the tests fail, this is a great way to debug what's going wrong with your code.
 
-**Don't forget** to get your code back to working! Then press `q` to get back to your terminal.
+🚨**Don't forget** to get your code back to working! Then press `q` to get back to your terminal.

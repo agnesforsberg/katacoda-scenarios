@@ -13,7 +13,7 @@ Navigate into the project folder `cd travis-react-tutorial`{{execute}}
 and install the dependancies `npm install`{{execute}} This might take a little while, you can read ahead while you wait but don't go to the next step yet!
 
 
-**NOTE** `npm install` will install all the needed dependancies for a React app to work, and put them in the folder *node_modules*. You don't need to know the specifics of the folder, and it is a part of our *.gitignore* file, which tells Github not to upload that folder when you run `git push`. This is because there are a very large number of files in *node_modules*, and we can simply install them each time we clone this repository.
+⚠ **NOTE** `npm install` will install all the needed dependancies for a React app to work, and put them in the folder *node_modules*. You don't need to know the specifics of the folder, and it is a part of our *.gitignore* file, which tells Github not to upload that folder when you run `git push`. This is because there are a very large number of files in *node_modules*, and we can simply install them each time we clone this repository.
 
 ### Getting to know the application
 After `npm install` has finished, look around in the editor to check out our project.
@@ -28,4 +28,4 @@ There is also a css file to make the counter look pretty, but we don't have to w
 Hopefully npm has finished installing and it's time to run our application!
 Run `npm start`{{execute}} and once it says "Compiled successfully" you can click on "Display port 3000" to test out our application!
 
-**NOTE** When you're done playing with the counter, either start a new terminal to keep it running or run `^C`{{execute ctrl-seq}} to stop the React app.
+⚠ **NOTE** When you're done playing with the counter, either start a new terminal to keep it running or run `^C`{{execute ctrl-seq}} to stop the React app.

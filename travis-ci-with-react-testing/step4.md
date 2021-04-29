@@ -10,7 +10,7 @@ This automation which is an integral part of continuous integration can be confi
 
 ### How to configure travis to your repo
 
-For a travis integration to work, your github repo has to have a `/travis-react-tutorial/.travis.yml`{{open}} file which contains the configuration information  
+For a travis integration to work, your github repo has to have a `/travis-react-tutorial/.travis.yml`{{open}} file which contains the configuration information  and it must be in the root folder of your github repo.
 
 💡 Tip: click on the file name above to create the file in the editor automatically!
 
@@ -53,7 +53,7 @@ script:
   - npm run test
 
 ```
-⚠ **NOTE**: This should be based on what build and test commands that are specified in the `package.json`
+⚠ **NOTE** This should be based on what build and test commands that are specified in the `package.json`
 
 
 If you want to add more commands that travis can check just append them to the bottom part (eg. npm start etc.)
