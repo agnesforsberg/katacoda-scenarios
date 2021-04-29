@@ -12,7 +12,7 @@ The first step is to ensure that you have decided what default branch the produc
 
 <iframe src="https://drive.google.com/file/d/1BS7WPKchnht9xdq-pkLYfU7o3pOYgWIw/preview" width="640" height="480"></iframe>
 
-\
+
 Now it is time to finally integrate travis to the github repo
 
 ###  Authorize travis to Github
@@ -25,7 +25,7 @@ Now it is time to finally integrate travis to the github repo
 
 <iframe src="https://drive.google.com/file/d/1CdlzKcS_-fU41h45Y5Pza4NerkVFyXLd/preview" width="640" height="480"></iframe>
 
-\
+
 ⚠ **NOTE** First time users will be prompted to authorize travis, this will not give travis access to the repo, you must carry on with the Steps.
 
 <iframe src="https://drive.google.com/file/d/1sv2kSAbJ5O6DZ2csTiytgGynJj4vOE9g/preview" width="640" height="480"></iframe>
@@ -38,7 +38,7 @@ Now it is time to finally integrate travis to the github repo
 
 
 
-\
+
 Here you will be promted to either add all your github repos or a selected few. For the purposes of this tutorial you only need to give access for the forked repo you are working on. Then you approve and install it.
 
 
