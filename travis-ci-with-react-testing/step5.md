@@ -10,7 +10,7 @@ The first step is to ensure that you have decided what default branch the produc
 
 💡 Tip: It should look something like this image.  
 
-<iframe src="https://drive.google.com/file/d/1BS7WPKchnht9xdq-pkLYfU7o3pOYgWIw/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1bbu2qPcOqlTGoCNVY7K4tvlAHayfFSvD/preview" width="640" height="480"></iframe>
 
 
 Now it is time to finally integrate travis to the github repo
