@@ -50,20 +50,18 @@ script:
   - npm run test
 
 ```
-⚠ **NOTE**: This should be based on what build commands that are specified in the `package.json` file
+⚠ **NOTE**: This should be based on what build and test commands that are specified in the `package.json`
 
 
+If you want to add more commands that travis can check just append them to the bottom part (eg. npm start etc.)
 
 
+## How travis tests occur 
 
+The scripts: `npm run build` and `npm run test`  that were added to the configuration file will now run each time a change is commited to github. For the travis CI server to approve the change both the build has to be sucessfull and the React tests we added in step 3. This is to ensure that the code change does not affect the product itself or any of the functionalities of the product.
 
-If you want to add more commands that travis can check just append them to the bottom part (eg.)
+As mentioned earlier, other types of tests can be added to check for performance issues and scaling issues.
 
-
-## how it uses both commands!
-- npm run build
-
-- npm run test
 
 
 
