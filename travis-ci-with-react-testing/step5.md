@@ -1,0 +1,3 @@
+It's time to leave the safety of our Katacoda terminal. The last few steps have to be performed on Github. So go to [https://github.com/agnesforsberg/travis-react-tutorial](https://github.com/agnesforsberg/travis-react-tutorial) and fork the repo to your own profile.
+
+**NOTE** You will be working in the branch *time2Fork*, where all of the steps you have already performed are prepared for you, so you do not have to do them again!
