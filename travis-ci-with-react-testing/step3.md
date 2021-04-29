@@ -74,9 +74,19 @@ These tests are similar, but test the different buttons. We have a few new funct
 - fireEvent(node, event) - this function mimics an event on the page. In this case we supply it with our buttons and mimic a mouse click with `MouseEvent`
 - `expect(number.textContent).toBe('2')` - This time we look at the number node again and make sure it has increased or decreased by one.
 
-## Test our tests
+## Test the tests
 Now we have some tests, let's see if they pass! Run `npm run test`{{execute}}
 The tests pass! Press `q`{{execute}} to quit.
 
 **NOTE** If your tests don't pass, make sure you haven't changed anything in App.js and that you've copied the tests exactly as written here!
 
+## Break the tests
+This might not make any sense, but let's see if we can get a test to fail - just for fun!
+
+Open `/travis-react-tutorial/counter/src/App.js`{{open}} and change it so that the plus button adds 2 instead of 1 when clicked.
+
+Try `npm run test`{{execute}} again. What happens?
+
+You're told what went wrong - what it expected and what it got. When writing tests, and the tests fail, this is a great way to debug what's going wrong with your code.
+
+**Don't forget** to get your code back to working!
