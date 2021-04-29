@@ -22,7 +22,7 @@
 
 8. Take away
 
-## Project Setup :hammer_and_wrench:
+## Project Setup :hammer_and_wrench: 😀
 You will work on a simple project containing a React app where you will learn the basics of React testing. You will also learn how to integrate Travis CI to your project using Github and continous integration functionalities.
 
 
