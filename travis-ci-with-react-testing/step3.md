@@ -38,4 +38,44 @@ What is going on here?
 
 `expect()` is how we assert tests in React.
 
-Run `npm run test`{{execute}} to check if the test succeeds!
+**Test 2 and 3**
+Ok, so we have the buttons, but let's make sure that they work!
+
+<pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest2">
+test('test number plus 1', () => {
+    render(<App/>)
+    const plusButton = screen.getByRole('button', {name: '+'})
+    const number = screen.getByText('1')
+    fireEvent(plusButton, new MouseEvent('click', {
+        bubbles: true,
+        cancelable: true,
+      }))
+    expect(number.textContent).toBe('2')
+})
+</pre>
+
+<pre class="file" data-filename="/root/travis-react-tutorial/counter/src/App.test.js" data-target="insert"  data-marker="#TODO-insertTest3">
+test('test number plus 1', () => {
+    render(<App/>)
+    const minusButton = screen.getByRole('button', {name: '-'})
+    const number = screen.getByText('1')
+    fireEvent(minusButton, new MouseEvent('click', {
+        bubbles: true,
+        cancelable: true,
+      }))
+    expect(number.textContent).toBe('0')
+})
+</pre>
+
+These tests are similar, but test the different buttons. We have a few new functions, let's go over them!
+
+- `screen.getByRole('button', {name: '+'})` - this function can take one (which we saw in Test 1) or 2 arguments. The second argument specifies what name the node should have, in this case '+'.
+- `screen.getByText(string) - this function returns the first node on the page with the text content supplied.
+- fireEvent(node, event) - this function mimics an event on the page. In this case we supply it with our buttons and mimic a mouse click with `MouseEvent`
+- `expect(number.textContent).toBe('2')` - This time we look at the number node again and make sure it has increased or decreased by one.
+
+## Test our tests
+Now we have some tests, let's see if they pass! Run `npm run test`{{execute}}
+The tests pass! Press `q`{{execute}} to quit.
+
+**NOTE** If your tests don't pass, make sure you haven't changed anything in App.js and that you've copied the tests exactly as written here!
