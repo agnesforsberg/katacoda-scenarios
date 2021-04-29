@@ -16,7 +16,7 @@ and install the dependancies `npm install`{{execute}} This might take a little w
 **NOTE** `npm install` will install all the needed dependancies for a React app to work, and put them in the folder *node_modules*. You don't need to know the specifics of the folder, and it is a part of our *.gitignore* file, which tells Github not to upload that folder when you run `git push`. This is because there are a very large number of files in *node_modules*, and we can simply install them each time we clone this repository.
 
 ### Getting to know the application
-Run `ls`{{execute "T2"}} to see our files (**IF** `npm install` has finished)
+After `npm install` has finished, look around in the editor to check out our project.
 
 - public/index.html - This is our app's html file. It simply creates a `div`-element with id *root*
 - src/index.js - In this file we tell React to find the element with id *root* and render App.js there.
@@ -27,3 +27,5 @@ There is also a css file to make the counter look pretty, but we don't have to w
 ### Run the application
 Hopefully npm has finished installing and it's time to run our application!
 Run `npm start`{{execute}} and once it says "Compiled successfully" you can click on "Display port 3000" to test out our application!
+
+**NOTE** When you're done playing with the counter, either start a new terminal to keep it running or run `^C`{{execute ctrl-seq}} to stop the React app.
