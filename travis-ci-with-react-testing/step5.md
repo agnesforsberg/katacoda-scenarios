@@ -16,10 +16,16 @@ Now it is time to finally integrate travis to the github repo
 
 ###  Authorize travis to Github
 
+<pre >
+![Sign in](./assets/1.PNG)
+</pre>
+
 
 Steps:
 
 1. Go to [https://travis-ci.com/](https://travis-ci.com/) and sign in or sign up using your github account.
+
+
 
 ![Sign in](./assets/1.PNG)
 
@@ -31,10 +37,8 @@ Steps:
 
 
 
-<center>
 <img src="./assets/3.PNG" alt="drawing" width= "70%" height= "auto" />
 
-<center/>
 
 
 
@@ -42,10 +46,9 @@ Here you will be promted to either add all your github repos or a selected few. 
 
 
 
-<Center>
 <img src="./assets/4.PNG" alt="drawing" width= "70%" height= "auto" />
 
-/>
+
 
 
 
