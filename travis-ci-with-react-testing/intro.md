@@ -1,7 +1,7 @@
 ## What you will learn: 💡
 
-- How to implement Travis CI server to a React project and how it works
-- How to authorize Travis to work with their github account
+- How to implement a Travis CI server to a React project and how it works
+- How to authorize Travis to work with your Github account
 - How to write simple tests in React
 - How to view test results using a CI server
 
@@ -14,21 +14,21 @@
 
 4. What is Travis CI and pros of using it?
 
-5. Travis CI and github
+5. Travis CI and Github
 
 6. Travis CI server in action
 
-7. Travis CI server using react tests 
+7. Travis CI server using React tests 
 
 8. Take away
 
 ## Project Setup: 🛠
-You will work on a simple project containing a React app where you will learn the basics of React testing. You will also learn how to integrate Travis CI to your project using Github and continous integration functionalities.
+You will work on a simple project containing a React app containing a basic counter, where you will learn the basics of React testing. You will also learn how to integrate Travis CI to your project using Github and continuous integration functionalities.
 
 
 ## Recommended prerequisites: 💻
  Basic knowledge of React development and NPM package management.
- Intermediate knowledge of github and git commands
+ Intermediate knowledge of Github and Git commands
 
 
 ### Have fun and good luck! 🎉

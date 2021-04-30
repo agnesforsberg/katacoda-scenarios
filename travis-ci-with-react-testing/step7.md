@@ -7,7 +7,7 @@ Unit tests and tests are the solution to this problem. Here is an example you ca
 
 In the forked repo, enter the file `src/App.js` and replace the number 1 in the plus COUNTER from line 14 to whatever number you want. Push your changes to Github.com
 
-Now this is a tutorial and it might be quite obvious what will happen now however imagine you change 100 lines of codes, that might not be as easy to investigate.
+Now this is a tutorial and it might be quite obvious what will happen. However imagine you change 100 lines of codes - that might not be as easy to investigate.
 
 In this case we know that one of our React tests (created in step 3) checks whether the plus button only increments by one each time. So how will travis react?
 

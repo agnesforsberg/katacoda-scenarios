@@ -16,7 +16,7 @@ import App from './App'
 #TODO-insertTest3
 </pre>
 
-The first import get's the necessary functions from the testing library - we'll go over these soon. And the of course we then import our App, how else would we test it?
+The first import gets the necessary functions from the testing library - we'll go over these soon. And of course we then import our App, how else would we test it?
 
 **Test 1**
 Let's start with something basic, let's make sure our buttons are rendered on the page!
@@ -30,7 +30,7 @@ test('test 2 buttons render', () => {
 
 What is going on here?
 - test() defines a test
-- the first parameter, `'test 2 buttons render'` is a description
+- the first parameter: `'test 2 buttons render'` is a description
 - the second parameter is the function that defines the test
 - `render(<App/>)` renders the App in the testing environment
 - `screen.getAllByRole('button')` returns an array of all buttons on the page
@@ -70,13 +70,13 @@ test('test number minus 1', () => {
 These tests are similar, but test the different buttons. We have a few new functions, let's go over them!
 
 - `screen.getByRole('button', {name: '+'})` - this function can take one (which we saw in Test 1) or 2 arguments. The second argument specifies what name the node should have, in this case '+'.
-- `screen.getByText(string) - this function returns the first node on the page with the text content supplied.
-- fireEvent(node, event) - this function mimics an event on the page. In this case we supply it with our buttons and mimic a mouse click with `MouseEvent`
-- `expect(number.textContent).toBe('2')` - This time we look at the number node again and make sure it has increased or decreased by one.
+- `screen.getByText(string)` - this function returns the first node on the page with the text content supplied.
+- `fireEvent(node, event)` - this function mimics an event on the page. In this case we supply it with our buttons and mimic a mouse click with `MouseEvent`
+- `expect(number.textContent).toBe('X')` - This time we look at the number node again and make sure it has increased or decreased by one.
 
 ## Test the tests
 Now we have some tests, let's see if they pass! Run `npm run test`{{execute}}
-Woo, the tests pass! Press q in the terminal to quit, but don't do it yet!
+Woo, the tests pass! You press q in the terminal to quit, but don't do it yet!
 
 ⚠ **NOTE** If your tests don't pass, make sure you haven't changed anything in App.js and that you've copied the tests exactly as written here!
 

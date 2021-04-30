@@ -2,7 +2,7 @@
 
 Finally it has become time to see the CI server in action. 🎉
 
-As mentioned in the previous step it is important to ensure that the changes occur in the *time2Fork* branch. It is good practice to work in a different branch and the pull request the changes and merge. The reason for that is that whenever a pull request shows red that it does not get merged into the production environment minimizing bugs and errors. However for the purposes of this simple tutorial, we will conduct our changes directly to the default branch. 
+As mentioned in the previous step it is important to ensure that the changes occur in the *time2Fork* branch. It is good practice to work in a different branch and then pull request the changes and merge. The reason for that is that whenever a pull request shows red than it does not get merged into the production environment, which minimizes bugs and errors. However for the purposes of this simple tutorial, we will conduct our changes directly to the default branch. 
 
 In the forked repo, enter the file `src/App.js` and replace the word COUNTER from line 10 to whatever word you want. Push your changes to Github.com
 
@@ -10,7 +10,7 @@ In the forked repo, enter the file `src/App.js` and replace the word COUNTER fro
 
 #### Testing phase ####
 
-Travis is automatic as mentioned however it still has to test the whole application after each push and therefore it takes some time for the build to either pass or fail. However you can follow the progress of this process in the dashboard of travis CI under the column JOB LOG. During this Phase you should be able to see a yellow color 🟡 in both Github and the Travis CI dashboard as seen in the images below.
+Travis is automatic as mentioned however it still has to test the whole application after each push and therefore it takes some time for the build to either pass or fail. However you can follow the progress of this process in the dashboard of Travis CI under the column JOB LOG. During this phase you should be able to see a yellow color 🟡 in both Github and the Travis CI dashboard as seen in the images below.
 
 *Travis CI dashboard:*
 <iframe src="https://drive.google.com/file/d/1sPSk9ilbasOP23jwAPSLaCC_onEwWlgC/preview" width="600" height="280"></iframe>
@@ -61,7 +61,7 @@ Enter the file `src/App.js` and replace the word *function* from line 4 to whate
 ❗ __Fix the error immediately and push it before progressing to the next step!__ ❗
 
 
-Now we have shown how the script `Node run build` affects the travis file and the importance of ensuring that , next we will see the importance of React tests where the app might not be broken but still works in the wrong way.
+Now we have shown how the script `Node run build` affects the Travis file and the importance of ensuring that. Next we will see the importance of React tests where the app might not be broken but still works in the wrong way.
 
 
 

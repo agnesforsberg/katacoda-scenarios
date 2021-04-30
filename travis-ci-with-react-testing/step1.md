@@ -1,4 +1,4 @@
-# What is continous integration
+# What is continous integration?
 Continuous integration is the practise of merging all developer's work into the mainline several times a day. This is done by automation, often by running tests and linting on each push or pull request and then merging if the code passes. The automated tasks often include builds, testing, deployment and monitoring.
 
 ### What is the importance of CI?
